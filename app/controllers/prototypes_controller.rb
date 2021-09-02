@@ -34,6 +34,7 @@ class PrototypesController < ApplicationController
     if @prototype.save
       redirect_to root_path
     else
+      redirect_to root_path
     end
   end
 
